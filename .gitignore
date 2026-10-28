@@ -1,0 +1,26 @@
+# Python / Django
+backend/venv/
+__pycache__/
+*.pyc
+*.sqlite3
+
+# Secrets (never commit these)
+.env
+*.env
+.env.local
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs / OS / Editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+
