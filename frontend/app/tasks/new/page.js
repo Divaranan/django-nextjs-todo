@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Navbar from "@/components/Navbar";
 import TaskForm from "@/components/TaskForm";
 import { useAuth } from "@/context/AuthContext";
 import { apiFetch, setFlash } from "@/lib/api";
@@ -27,7 +26,6 @@ export default function NewTaskPage() {
 
   return (
     <>
-      <Navbar />
       <main className="container">
         <div className="card">
           <h2 style={{ marginBottom: 16 }}>Add New Task</h2>
